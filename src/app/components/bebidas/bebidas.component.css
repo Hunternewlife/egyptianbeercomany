@@ -1,0 +1,115 @@
+main{
+    height: 75vh;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(140,122,122,1) 0%, rgba(175,135,124,1) 65%, rgba(175,135,124,1) 100%) fixed;
+    background: url('src/assets/images/coc-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font: 14px/20px "Lato", Arial, sans-serif;
+    color: #9E9E9E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    height: 500px;
+    width: 300px;
+    background-image: url(src/assets/images/general.jpg);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: -1px 15px 30px -12px black;
+}
+
+.img{
+    height: 40%;
+    z-index: 0;
+}
+
+.shakum{
+    background-image: url(src/assets/images/Shakum.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 250px;
+    z-index: 2;
+    margin-left: 110px;
+}
+
+.description{
+    height: 40%;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dorado{
+    color: #ffb700;
+}
+
+.blank{
+    color: black;
+    font-size: 2em;
+}
+
+.text{
+    font-size: .8em;
+    margin: 10px 7px;
+}
+
+.prices{
+    height: 20%;
+    background-color: #ffb700;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: none;
+}
+
+.price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: #ffffff20 1px solid;
+    border-radius: 10px;
+}
+
+.dinero{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 1.5em;
+    
+}
+
+.info{
+    color: white;
+    margin-top: 5px;
+    font-size: 0.8em;
+}
+
+.left{
+    width: 50px;
+    height: 50px;
+    background-image: url(src/assets/images/left.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    right: 100px;
+    background-color: #ffffff20;
+    border-radius: 30px;
+}
+
+.right{
+    width: 50px;
+    height: 50px;
+    background-image: url(src/assets/images/right.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 100px;
+    border-radius: 30px;
+    background-color: #ffffff20;
+}
