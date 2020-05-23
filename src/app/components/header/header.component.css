@@ -1,0 +1,49 @@
+@font-face{
+    font-family: draft;
+    src: url(src/assets/fonts/draft.otf);
+}
+
+
+.header{
+    width: 100%;
+    height: 10vh;
+    border: #ffffff 1px solid;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    width: inherit;
+    height: inherit;
+    font-size: 35px;
+    font-family: draft;
+}
+
+.logo{
+    background-color: black !important;
+    color: white;
+}
+
+.link{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #ffb700;
+    border: #ffffff 1px solid;
+    text-decoration: none;
+}
+
+.img{
+    background-image: url(src/assets/images/logo.png);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+}
+
+.link:hover{
+    background-color: black;
+    color: #ffb700;
+}

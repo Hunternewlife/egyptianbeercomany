@@ -1,0 +1,17 @@
+main{
+    font-family: draft;
+    color: aliceblue;
+}
+
+.imagen{
+    height: 76vh;
+    background-image: url(src/assets/images/fara.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #000000;
+    border: #ffffff 1px dotted;
+}
+
+
+

@@ -1,0 +1,42 @@
+.banner{
+    color: aliceblue;
+    font-size: 1em;
+    font-family: draft;
+    width: 100%;
+    text-align: center;
+    background-color: aliceblue;
+    color: #ffb700;
+}
+
+.sections{
+    display: flex;
+    height: 10vh;
+    border: #fff solid 1px;
+    font-size: 1em;
+    color: white;
+    font-weight: bold;
+}
+
+.blue{
+    width: 50%;
+    height: inherit;
+    background-color: #46d6eb;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+}
+
+.green{
+    width: 50%;
+    height: inherit;
+    background-color: #a5cc76;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.blue p, .green p{
+    margin-top: 10px;
+}
