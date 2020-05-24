@@ -30,9 +30,12 @@ main{
     background-image: url(src/assets/images/Shakum.png);
     background-size: contain;
     background-repeat: no-repeat;
-    height: 250px;
+    height: 300px;
     z-index: 2;
-    margin-left: 110px;
+    position: relative;
+    bottom: 50px;
+    left: 110px;
+    
 }
 
 .description{
@@ -112,4 +115,8 @@ main{
     left: 100px;
     border-radius: 30px;
     background-color: #ffffff20;
+}
+
+.disactive {
+    display: none;
 }

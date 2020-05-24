@@ -1,0 +1,11 @@
+main{
+    height: 76vh;
+    background-image: url(src/assets/images/construct.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: draft;
+    font-size: 2em;
+}
