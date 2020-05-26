@@ -38,6 +38,17 @@ main{
     
 }
 
+.takar{
+    background-image: url(src/assets/images/Takar.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    z-index: 2;
+    position: relative;
+    bottom: 50px;
+    right: 50px;
+}
+
 .description{
     height: 40%;
     background-color: white;

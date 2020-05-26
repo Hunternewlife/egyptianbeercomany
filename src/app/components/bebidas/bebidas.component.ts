@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BebidasComponent implements OnInit {
 
+  show:boolean = true;
+  
   constructor() { }
 
   ngOnInit(): void {

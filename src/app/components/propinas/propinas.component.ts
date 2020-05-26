@@ -6,8 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./propinas.component.css']
 })
 export class PropinasComponent implements OnInit {
-
-  constructor() { }
+  show:boolean = true;
+  
+  constructor() {
+    
+   }
 
   ngOnInit(): void {
   }

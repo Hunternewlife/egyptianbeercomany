@@ -23,3 +23,4 @@ describe('PropinasComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+
